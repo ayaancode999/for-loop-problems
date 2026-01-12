@@ -13,4 +13,14 @@ e.append("hi")
 e.append("1")
 e.append(2)
 print(e)
-
+#using extend method
+f=[]
+f.extend([2,3,4])
+print(f)
+#using insert method
+g=[5,567,88]
+g.insert(1,"hello")
+print(g)
+#using clear method
+g.clear()
+print(g)
