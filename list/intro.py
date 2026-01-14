@@ -24,3 +24,7 @@ print(g)
 #using clear method
 g.clear()
 print(g)
+#updating the list
+a=[1,2,3,4,5]
+a[2]=3.2
+print(a)
