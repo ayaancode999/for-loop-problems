@@ -28,3 +28,20 @@ print(g)
 a=[1,2,3,4,5]
 a[2]=3.2
 print(a)
+#using remove method
+h=[4,3,6,7,8,4]
+h.remove(4)
+print(h)
+#using pop method 
+h.pop(1)
+print(h)
+#using delete statement
+del h[0]
+print(h)
+#using iterating through list
+fruits=["apple","banana","strawberry"]
+for fruit in fruits:
+    print(fruit)
+colours=["red","blue","green"]
+for colour in colours:
+    print(colour)
